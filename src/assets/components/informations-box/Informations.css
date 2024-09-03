@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#informations {
+  position: relative;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#description {
+  font-size: 1rem;
+  color: hsl(0, 0%, 40%);
+  margin-top: 5px;
+}
+
+#price {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+#input-box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 4px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-button {
+  border: none;
+  font-size: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.quantity-button:active {
+  font-size: 1.5rem;
+}
+
+#counter {
+  font-size: 1.25rem;
+  font-weight: 700;
+  width: 2.5rem;
+  text-align: center;
+}
